@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600A649024CF0732006369A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A648F24CF0732006369A7 /* AppDelegate.swift */; };
+		600A649224CF0732006369A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A649124CF0732006369A7 /* SceneDelegate.swift */; };
+		600A649424CF0732006369A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A649324CF0732006369A7 /* ViewController.swift */; };
+		600A649724CF0732006369A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600A649524CF0732006369A7 /* Main.storyboard */; };
+		600A649924CF0734006369A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600A649824CF0734006369A7 /* Assets.xcassets */; };
+		600A649C24CF0734006369A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600A649A24CF0734006369A7 /* LaunchScreen.storyboard */; };
+		600A64AE24CF0C51006369A7 /* TutorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A64AD24CF0C51006369A7 /* TutorVC.swift */; };
+		600A64B024CF0E72006369A7 /* LessonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A64AF24CF0E72006369A7 /* LessonVC.swift */; };
+		600A64B424CF0FB7006369A7 /* StudentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A64B324CF0FB7006369A7 /* StudentProfileViewController.swift */; };
+		600A64B624CF109C006369A7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A64B524CF109C006369A7 /* Extensions.swift */; };
+		604AFED524D1952100E0C79C /* TutorExplain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604AFED424D1952100E0C79C /* TutorExplain.swift */; };
+		604AFED724D1A0B000E0C79C /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604AFED624D1A0B000E0C79C /* Lesson.swift */; };
+		604AFEDA24D426AC00E0C79C /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604AFED924D426AC00E0C79C /* ProfileHeader.swift */; };
+		604AFEDC24D426DD00E0C79C /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604AFEDB24D426DD00E0C79C /* ProfileCell.swift */; };
+		606DFF8424DAA9080031F4FB /* StudentTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A64A724CF0A2A006369A7 /* StudentTabBarController.swift */; };
+		606DFF8824DADE1A0031F4FB /* TutorTabBarCtontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DFF8724DADE1A0031F4FB /* TutorTabBarCtontroller.swift */; };
+		606DFF8B24DAE5CA0031F4FB /* TutorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DFF8A24DAE5CA0031F4FB /* TutorProfileViewController.swift */; };
+		606DFF8F24DAED080031F4FB /* TutorEmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DFF8E24DAED080031F4FB /* TutorEmptyViewController.swift */; };
+		60C4665C24D96FE80014B318 /* TutorChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4665B24D96FE80014B318 /* TutorChatTableViewController.swift */; };
+		60C4666124D984F60014B318 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4666024D984F60014B318 /* Protocols.swift */; };
+		60C4666524D9A5640014B318 /* ClassroomChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4666424D9A5640014B318 /* ClassroomChatTableViewController.swift */; };
+		60C4666624D9AB4C0014B318 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A64B124CF0F4A006369A7 /* ChatViewController.swift */; };
+		60C4666824D9AB620014B318 /* TutorChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A64B824CF1F47006369A7 /* TutorChatCell.swift */; };
+		60C4666924D9AB670014B318 /* ClassroomChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4666224D9A4F70014B318 /* ClassroomChatCell.swift */; };
+		60C4667124D9AD080014B318 /* ChatHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4667024D9AD080014B318 /* ChatHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		600A648C24CF0732006369A7 /* SberEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SberEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		600A648F24CF0732006369A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		600A649124CF0732006369A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		600A649324CF0732006369A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		600A649624CF0732006369A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		600A649824CF0734006369A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		600A649B24CF0734006369A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		600A649D24CF0734006369A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600A64A724CF0A2A006369A7 /* StudentTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTabBarController.swift; sourceTree = "<group>"; };
+		600A64AD24CF0C51006369A7 /* TutorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorVC.swift; sourceTree = "<group>"; };
+		600A64AF24CF0E72006369A7 /* LessonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonVC.swift; sourceTree = "<group>"; };
+		600A64B124CF0F4A006369A7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		600A64B324CF0FB7006369A7 /* StudentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileViewController.swift; sourceTree = "<group>"; };
+		600A64B524CF109C006369A7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		600A64B824CF1F47006369A7 /* TutorChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorChatCell.swift; sourceTree = "<group>"; };
+		604AFED424D1952100E0C79C /* TutorExplain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorExplain.swift; sourceTree = "<group>"; };
+		604AFED624D1A0B000E0C79C /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		604AFED924D426AC00E0C79C /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		604AFEDB24D426DD00E0C79C /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		606DFF8724DADE1A0031F4FB /* TutorTabBarCtontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorTabBarCtontroller.swift; sourceTree = "<group>"; };
+		606DFF8A24DAE5CA0031F4FB /* TutorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorProfileViewController.swift; sourceTree = "<group>"; };
+		606DFF8E24DAED080031F4FB /* TutorEmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorEmptyViewController.swift; sourceTree = "<group>"; };
+		60C4665B24D96FE80014B318 /* TutorChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorChatTableViewController.swift; sourceTree = "<group>"; };
+		60C4666024D984F60014B318 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		60C4666224D9A4F70014B318 /* ClassroomChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomChatCell.swift; sourceTree = "<group>"; };
+		60C4666424D9A5640014B318 /* ClassroomChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomChatTableViewController.swift; sourceTree = "<group>"; };
+		60C4667024D9AD080014B318 /* ChatHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600A648924CF0732006369A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600A648324CF0732006369A7 = {
+			isa = PBXGroup;
+			children = (
+				600A648E24CF0732006369A7 /* SberEnglish */,
+				600A648D24CF0732006369A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		600A648D24CF0732006369A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				600A648C24CF0732006369A7 /* SberEnglish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		600A648E24CF0732006369A7 /* SberEnglish */ = {
+			isa = PBXGroup;
+			children = (
+				606DFF7D24DAA7900031F4FB /* ForStudent */,
+				606DFF7E24DAA7970031F4FB /* ForTutor */,
+				600A649D24CF0734006369A7 /* Info.plist */,
+				600A648F24CF0732006369A7 /* AppDelegate.swift */,
+				600A649124CF0732006369A7 /* SceneDelegate.swift */,
+				600A649324CF0732006369A7 /* ViewController.swift */,
+				600A649824CF0734006369A7 /* Assets.xcassets */,
+				600A649A24CF0734006369A7 /* LaunchScreen.storyboard */,
+				600A649524CF0732006369A7 /* Main.storyboard */,
+			);
+			path = SberEnglish;
+			sourceTree = "<group>";
+		};
+		600A64A324CF09A6006369A7 /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				600A64AC24CF0BBA006369A7 /* StudentProfile */,
+				600A64AB24CF0BB2006369A7 /* StudentChat */,
+				600A64AA24CF0BAC006369A7 /* StudentLesson */,
+				600A64A924CF0B8E006369A7 /* Tutors */,
+			);
+			path = VIewController;
+			sourceTree = "<group>";
+		};
+		600A64A424CF09B4006369A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				604AFED824D4263C00E0C79C /* Profile */,
+				604AFED324D1948900E0C79C /* Lessons */,
+				600A64B724CF1F22006369A7 /* Chat */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		600A64A524CF09DD006369A7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				600A64B524CF109C006369A7 /* Extensions.swift */,
+				60C4666024D984F60014B318 /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		600A64A624CF09F4006369A7 /* StudentTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				600A64A724CF0A2A006369A7 /* StudentTabBarController.swift */,
+			);
+			path = StudentTabBarController;
+			sourceTree = "<group>";
+		};
+		600A64A924CF0B8E006369A7 /* Tutors */ = {
+			isa = PBXGroup;
+			children = (
+				600A64AD24CF0C51006369A7 /* TutorVC.swift */,
+			);
+			path = Tutors;
+			sourceTree = "<group>";
+		};
+		600A64AA24CF0BAC006369A7 /* StudentLesson */ = {
+			isa = PBXGroup;
+			children = (
+				600A64AF24CF0E72006369A7 /* LessonVC.swift */,
+			);
+			path = StudentLesson;
+			sourceTree = "<group>";
+		};
+		600A64AB24CF0BB2006369A7 /* StudentChat */ = {
+			isa = PBXGroup;
+			children = (
+				600A64B124CF0F4A006369A7 /* ChatViewController.swift */,
+				60C4665B24D96FE80014B318 /* TutorChatTableViewController.swift */,
+				60C4666424D9A5640014B318 /* ClassroomChatTableViewController.swift */,
+			);
+			path = StudentChat;
+			sourceTree = "<group>";
+		};
+		600A64AC24CF0BBA006369A7 /* StudentProfile */ = {
+			isa = PBXGroup;
+			children = (
+				600A64B324CF0FB7006369A7 /* StudentProfileViewController.swift */,
+			);
+			path = StudentProfile;
+			sourceTree = "<group>";
+		};
+		600A64B724CF1F22006369A7 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				60C4667024D9AD080014B318 /* ChatHeaderView.swift */,
+				600A64B824CF1F47006369A7 /* TutorChatCell.swift */,
+				60C4666224D9A4F70014B318 /* ClassroomChatCell.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		604AFED324D1948900E0C79C /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				604AFED424D1952100E0C79C /* TutorExplain.swift */,
+				604AFED624D1A0B000E0C79C /* Lesson.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		604AFED824D4263C00E0C79C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				604AFED924D426AC00E0C79C /* ProfileHeader.swift */,
+				604AFEDB24D426DD00E0C79C /* ProfileCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		606DFF7D24DAA7900031F4FB /* ForStudent */ = {
+			isa = PBXGroup;
+			children = (
+				606DFF8524DADDB80031F4FB /* TabBarController */,
+				600A64A324CF09A6006369A7 /* VIewController */,
+				600A64A424CF09B4006369A7 /* View */,
+				600A64A524CF09DD006369A7 /* Utils */,
+			);
+			path = ForStudent;
+			sourceTree = "<group>";
+		};
+		606DFF7E24DAA7970031F4FB /* ForTutor */ = {
+			isa = PBXGroup;
+			children = (
+				606DFF8624DADE0B0031F4FB /* TabBarController */,
+				606DFF8924DAE55D0031F4FB /* ViewController */,
+			);
+			path = ForTutor;
+			sourceTree = "<group>";
+		};
+		606DFF8524DADDB80031F4FB /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				600A64A624CF09F4006369A7 /* StudentTabBarController */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		606DFF8624DADE0B0031F4FB /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				606DFF8724DADE1A0031F4FB /* TutorTabBarCtontroller.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		606DFF8924DAE55D0031F4FB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				606DFF8D24DAECBA0031F4FB /* TutorChat */,
+				606DFF8C24DAE5D00031F4FB /* TutorProfile */,
+				606DFF8A24DAE5CA0031F4FB /* TutorProfileViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		606DFF8C24DAE5D00031F4FB /* TutorProfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TutorProfile;
+			sourceTree = "<group>";
+		};
+		606DFF8D24DAECBA0031F4FB /* TutorChat */ = {
+			isa = PBXGroup;
+			children = (
+				606DFF8E24DAED080031F4FB /* TutorEmptyViewController.swift */,
+			);
+			path = TutorChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		600A648B24CF0732006369A7 /* SberEnglish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600A64A024CF0734006369A7 /* Build configuration list for PBXNativeTarget "SberEnglish" */;
+			buildPhases = (
+				600A648824CF0732006369A7 /* Sources */,
+				600A648924CF0732006369A7 /* Frameworks */,
+				600A648A24CF0732006369A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SberEnglish;
+			productName = SberEnglish;
+			productReference = 600A648C24CF0732006369A7 /* SberEnglish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		600A648424CF0732006369A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Петраков Павел Константинович";
+				TargetAttributes = {
+					600A648B24CF0732006369A7 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 600A648724CF0732006369A7 /* Build configuration list for PBXProject "SberEnglish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 600A648324CF0732006369A7;
+			productRefGroup = 600A648D24CF0732006369A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				600A648B24CF0732006369A7 /* SberEnglish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		600A648A24CF0732006369A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600A649C24CF0734006369A7 /* LaunchScreen.storyboard in Resources */,
+				600A649924CF0734006369A7 /* Assets.xcassets in Resources */,
+				600A649724CF0732006369A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600A648824CF0732006369A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604AFEDA24D426AC00E0C79C /* ProfileHeader.swift in Sources */,
+				600A649424CF0732006369A7 /* ViewController.swift in Sources */,
+				600A64B624CF109C006369A7 /* Extensions.swift in Sources */,
+				60C4666924D9AB670014B318 /* ClassroomChatCell.swift in Sources */,
+				600A64AE24CF0C51006369A7 /* TutorVC.swift in Sources */,
+				606DFF8824DADE1A0031F4FB /* TutorTabBarCtontroller.swift in Sources */,
+				600A649024CF0732006369A7 /* AppDelegate.swift in Sources */,
+				60C4666524D9A5640014B318 /* ClassroomChatTableViewController.swift in Sources */,
+				600A64B424CF0FB7006369A7 /* StudentProfileViewController.swift in Sources */,
+				604AFED724D1A0B000E0C79C /* Lesson.swift in Sources */,
+				604AFEDC24D426DD00E0C79C /* ProfileCell.swift in Sources */,
+				600A649224CF0732006369A7 /* SceneDelegate.swift in Sources */,
+				604AFED524D1952100E0C79C /* TutorExplain.swift in Sources */,
+				60C4666624D9AB4C0014B318 /* ChatViewController.swift in Sources */,
+				600A64B024CF0E72006369A7 /* LessonVC.swift in Sources */,
+				606DFF8B24DAE5CA0031F4FB /* TutorProfileViewController.swift in Sources */,
+				606DFF8424DAA9080031F4FB /* StudentTabBarController.swift in Sources */,
+				60C4667124D9AD080014B318 /* ChatHeaderView.swift in Sources */,
+				60C4666824D9AB620014B318 /* TutorChatCell.swift in Sources */,
+				60C4665C24D96FE80014B318 /* TutorChatTableViewController.swift in Sources */,
+				60C4666124D984F60014B318 /* Protocols.swift in Sources */,
+				606DFF8F24DAED080031F4FB /* TutorEmptyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		600A649524CF0732006369A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600A649624CF0732006369A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		600A649A24CF0734006369A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600A649B24CF0734006369A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		600A649E24CF0734006369A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		600A649F24CF0734006369A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		600A64A124CF0734006369A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MDD4K93Q39;
+				INFOPLIST_FILE = SberEnglish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pasha.SberEnglish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		600A64A224CF0734006369A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MDD4K93Q39;
+				INFOPLIST_FILE = SberEnglish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pasha.SberEnglish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600A648724CF0732006369A7 /* Build configuration list for PBXProject "SberEnglish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600A649E24CF0734006369A7 /* Debug */,
+				600A649F24CF0734006369A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600A64A024CF0734006369A7 /* Build configuration list for PBXNativeTarget "SberEnglish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600A64A124CF0734006369A7 /* Debug */,
+				600A64A224CF0734006369A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 600A648424CF0732006369A7 /* Project object */;
+}
